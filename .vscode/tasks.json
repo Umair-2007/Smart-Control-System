@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cmake",
+			"label": "CMake: install",
+			"command": "install",
+			"problemMatcher": [],
+			"detail": "CMake template install task",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: avr-gcc build active file",
+			"command": "/Users/umairwanware/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-mmcu=atmega16",
+				""
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /Users/umairwanware/.platformio/packages/toolchain-atmelavr/bin/avr-gcc"
+		}
+	]
+}
