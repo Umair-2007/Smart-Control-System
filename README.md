@@ -2,4 +2,4 @@
 Umair Wanware
 
 # Skills
-Platform IO, VS Code, AVR-GCC, Embedded C, RTOS, PWM, ADC, UART, LCD, Timers, Prescalers
+Platform IO, VS Code, Embedded C, RTOS, PWM, ADC, UART, LCD, Timers, Prescalers
