@@ -5,7 +5,7 @@ Umair Wanware
 Platform IO, VS Code, Embedded C, RTOS, PWM, ADC, UART, LCD, Timers, Prescalers
 
 # Features
-. Temperature Monitoring
+# Temperature Monitoring
   . Reads analog temperature sensor (LM35) using ADC
   . Converts ADC values to real-world temperature (°C)
   
