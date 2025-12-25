@@ -8,16 +8,16 @@ Platform IO, VS Code, Embedded C, RTOS, PWM, ADC, UART, LCD, Timers, Prescalers
 ## Temperature Monitoring
   . Thermal Prorection
   
-   .	Reads anlaogue temperature sensor (LM35) using ADC
+   . Reads anlaogue temperature sensor (LM35) using ADC
    
-   .	Converts ADC values to real world temperture
+   . Converts ADC values to real world temperture
   
 ## Motor Speed Control
   . Fast PWM using Timer0
   
-	.	Smooth speed ramp-up and ramp-down
+	. Smooth speed ramp-up and ramp-down
 	
-	.	Automatic speed reduction at high temperatures
+	. Automatic speed reduction at high temperatures
 	
 ## Safety Logic
   . 60°C → Reduced speed
